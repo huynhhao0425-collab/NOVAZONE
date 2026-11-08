@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background: white;
+}
+
+header {
+    height: 80px;
+    background: white;
+    display: flex;
+    align-items: center;
+    padding: 35px;
+    gap: 26px;
+    font-size: 18px;
+}
+
+header span {
+    color: rgb(121, 58, 179);
+}
+
+header input {
+    width: 500px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+.Account {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+header a {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(44, 44, 44);
+}
+
+header a:hover{
+    color: rgb(164, 157, 157);
+}
+
+header a:active{
+    color: rgb(196, 185, 185);
+}
+
+main {
+    padding: 50px;
+}
+
+main h1 {
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 35px;
+}
+
+.Account-box {
+    width: 600px;
+    margin: auto;
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgb(137, 135, 135);
+    text-align: center;
+}
+
+.Icon {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.Account-box h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.Information {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.Information p {
+    padding: 12px 0;
+    border-bottom: 1px solid rgb(69, 67, 67);
+    font-size: 20px;
+}
+
+.Information strong {
+    display: inline-block;
+    width: 120px;
+}
+
+.Account-box button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 6px;
+    background: rgb(132, 60, 199);
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Account-box button:hover {
+    background: rgb(136, 97, 173);
+}
+
+.Account-box button:active {
+    background: rgb(117, 84, 148);
+}
+
+.Account-box .Logout {
+    background: rgb(201, 71, 71);
+}
+
+.Account-box .logout {
+    text-decoration: none;
+    color: white;
+}
+.Account-box .Logout:hover {
+    background: rgb(169, 68, 68);
+}
+
+.Account-box .Logout:active {
+    background: rgb(169, 95, 95);
+}
+
+footer {
+    margin-top: 50px;
+    padding: 30px;
+    background: rgb(63, 62, 62);
+    color: white;
+    text-align: center;
+}
+
+footer h2 {
+    margin: 10px 0 20px;
+    font-size: 30px;
+}
+
+footer p {
+    color: rgb(194, 189, 189);
+    font-size: 20px;
+}

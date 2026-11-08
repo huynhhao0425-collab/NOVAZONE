@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background: white;
+}
+
+header {
+    height: 80px;
+    background: white;
+    display: flex;
+    align-items: center;
+    padding: 35px;
+    gap: 26px;
+    font-size: 18px;
+}
+
+header span {
+    color: rgb(121, 58, 179);
+}
+
+header input {
+    width: 500px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+.Home {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+header a {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(44, 44, 44);
+}
+
+header a:hover{
+    color: rgb(164, 157, 157);
+}
+
+header a:active{
+    color: rgb(196, 185, 185);
+}
+
+.NOVAZONE-Box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 30px;
+    background: rgb(129, 64, 189);
+    padding: 50px;
+    border-radius: 15px;
+    width: 94%;
+    height: 340px;
+}
+
+.Banner-text {
+    color: white;
+}
+
+.Banner-image {
+    width: 455px;
+}
+
+.NOVAZONE-Box h2 {
+    font-size: 40px;
+}
+
+.NOVAZONE-Box p {
+    font-size: 20px;
+}
+
+.NOVAZONE-Box button {
+    padding: 18px;
+    margin-top: 10px;
+    background: rgb(154, 79, 225);
+    color: white;
+    font-weight: bold;
+    border: 0;
+    border-radius: 6px;
+    font-size: 15px;
+    width: 30%;
+    cursor: pointer;
+}
+
+.NOVAZONE-Box button:hover{
+    background: rgb(145, 93, 193);
+}
+
+.NOVAZONE-Box button:active{
+    background: rgb(150, 105, 192);
+}
+
+.Title,
+.Title-2 {
+    width: 90%;
+    margin: 30px auto;
+    font-size: 27px;
+}
+
+.Games {
+    margin: 28px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+@media (max-width: 1000px) {
+    .Games {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 740px) {
+    .Games {
+        grid-template-columns: 1fr;
+    }
+}
+/* 470px */
+.game {
+    background: white;
+    flex-direction: column;
+    width: 360px;
+    height: 510px;
+    margin-right: 25px;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgb(231, 217, 217);
+    transition: 0.3s;
+}
+
+.game:hover {
+    transform: scale(1.1);
+    box-shadow: 0 3px 12px rgb(231, 217, 217);
+}
+
+.Detail {
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.game h3 {
+    margin-top: 10px;
+    font-size: 23px;
+}
+
+.game p {
+    color: rgb(59, 59, 59);
+    font-size: 20px;
+}
+
+.game b {
+    color: blueviolet;
+    font-size: 20px;
+}
+
+.Button-group {
+    display: flex;
+    gap: 10px;
+}
+
+.Buy-btn {
+    display: block;
+    flex: 1;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15px;
+    padding: 5px;
+    background: rgb(144, 67, 216);
+    color: white;
+    font-size: 15px;
+    border: 0;
+    border-radius: 6px;
+}
+
+.Buy-btn:hover{
+    background: rgb(165, 124, 203);
+}
+
+.Buy-btn:active{
+    background: rgb(173, 129, 214);
+}
+
+footer {
+    text-align: center;
+    padding: 1px;
+    font-size: 20px;
+    color: white;
+    background: rgb(122, 120, 120);
+}
+
+footer a {
+    text-decoration: none;
+    margin-left: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+footer a:hover {
+    color: rgb(204, 197, 197);
+}
+
+footer a:active {
+     color: rgb(186, 176, 176)
+}

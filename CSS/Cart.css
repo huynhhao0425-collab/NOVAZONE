@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(255, 255, 255);
+}
+
+header {
+    height: 80px;
+    background: white;
+    display: flex;
+    align-items: center;
+    padding: 35px;
+    gap: 26px;
+    font-size: 18px;
+}
+
+header span {
+    color: rgb(121, 58, 179);
+}
+
+header input {
+    width: 500px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+.cart {
+    color: blueviolet;
+    font-weight: bold;
+}
+header a {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(44, 44, 44);
+}
+
+header a:hover{
+    color: rgb(164, 157, 157);
+}
+
+header a:active{
+    color: rgb(196, 185, 185);
+}
+
+main {
+    padding: 30px 45px;
+}
+
+main h2 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.describe {
+    color: rgb(100, 96, 96);
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.Cart {
+    display: flex;
+    gap: 30px;
+}
+
+.products {
+    width: 70%;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgb(189, 188, 188);
+}
+
+.product {
+    min-height: 250px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border-bottom: 1px solid rgb(206, 204, 204);
+}
+
+.product:last-child { 
+    border-bottom: none;
+}
+
+.product img {
+    height: 185px;
+    width: 280px;
+    border-radius: 7px;
+}
+
+.infomation {
+    flex: 1;
+}
+
+.infomation h3 {
+    font-size: 22px;
+    margin: 0; 
+}
+
+.infomation p {
+    color: rgb(91, 88, 88);
+    font-size: 18px;
+}
+
+.infomation b {
+    color: blueviolet;
+    font-size: 21px;
+}
+
+.product button {
+    padding: 10px 18px;
+    background: white;
+    border: 1px solid rgb(168, 164, 164);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.product button:hover {
+    background: rgb(221, 216, 216);
+}
+
+.product button:active {
+    background: rgb(211, 207, 207);
+}
+
+.product strong {
+    font-size: 20px;
+    min-width: 70px;
+}
+
+.Summary {
+    width: 30%;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgb(189, 188, 188);
+}
+
+.Summary h3 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.Summary p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin: 50px 0;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+    font-size: 26px;
+}
+
+.total span {
+    font-weight: bold;
+}
+
+.total strong {
+    color: blueviolet;
+    font-size: 28px;
+ }
+
+.checkout {
+    width: 100%;
+    cursor: pointer;
+    padding: 15px;
+    margin: 10px 0;
+    background: rgb(144, 67, 216);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.checkout:hover{
+    background: rgb(148, 111, 183);
+}
+
+.checkout:active{
+    background: rgb(173, 129, 214);
+}
+
+footer {
+    text-align: center;
+    padding: 1px;
+    font-size: 20px;
+    color: white;
+    background: rgb(122, 120, 120);
+}
+
+footer a {
+    text-decoration: none;
+    margin-left: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+footer a:hover {
+    color: rgb(204, 197, 197);
+}
+
+footer a:active {
+     color: rgb(186, 176, 176)
+}

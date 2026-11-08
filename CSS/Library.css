@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background: white;
+}
+
+header {
+    height: 80px;
+    background: white;
+    display: flex;
+    align-items: center;
+    padding: 35px;
+    gap: 26px;
+    font-size: 18px;
+}
+
+header span {
+    color: rgb(121, 58, 179);
+}
+
+header input {
+    width: 500px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+header a {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(44, 44, 44);
+}
+
+header a:hover{
+    color: rgb(164, 157, 157);
+}
+
+header a:active{
+    color: rgb(196, 185, 185);
+}
+
+.Library {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.Title {
+    padding: 35px;
+}
+
+.Title h2 {
+    font-size: 32px;
+    margin: 0;
+}
+
+.Title p {
+    font-size: 18px;
+    color: rgb(97, 95, 95);
+    margin-top: 20px;
+}

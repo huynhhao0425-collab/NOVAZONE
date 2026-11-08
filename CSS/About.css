@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background: white;
+}
+
+header {
+    height: 80px;
+    background: white;
+    display: flex;
+    align-items: center;
+    padding: 35px;
+    gap: 26px;
+    font-size: 18px;
+}
+
+header span {
+    color: rgb(121, 58, 179);
+}
+
+header input {
+    width: 500px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+header a {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(44, 44, 44);
+}
+
+header a:hover{
+    color: rgb(164, 157, 157);
+}
+
+header a:active{
+    color: rgb(196, 185, 185);
+}
+
+main {
+    padding: 50px;
+}
+
+.About {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.About h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.About p {
+    font-size: 20px;
+    color: rgb(95, 87, 87);
+}
+
+.Contact {
+    display: flex;
+    gap: 40px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.contact-info,
+.contact-form {
+    flex: 1;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgb(180, 174, 174);
+}
+
+.contact-info h2,
+.contact-form h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.contact-info p {
+    margin: 40px 0;
+    font-size: 20px;
+    color: rgb(66, 68, 84);
+}
+
+.contact-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.contact-form textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: rgb(144, 67, 216);
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.contact-form button:hover{
+    background: rgb(148, 111, 183);
+}
+
+.contact-form button:active{
+    background: rgb(173, 129, 214);
+}
+
+footer {
+    margin-top: 60px;
+    padding: 20px;
+    text-align: center;
+    font-size: 22px;
+    background: rgb(75, 74, 74);
+    color: white;
+}
+
